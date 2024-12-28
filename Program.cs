@@ -24,7 +24,7 @@ public record Weather
     public Weather(string city)
     {
         City = city;
-        Conditions = "Cloudy";
+        Conditions = "Sunny!!!!";
         // Temperature here is in celsius degrees, hence the 0-40 range.
         Temperature = new Random().Next(0,40).ToString();
     }
